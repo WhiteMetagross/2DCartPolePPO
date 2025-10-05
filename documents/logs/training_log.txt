@@ -1,0 +1,13 @@
+Training started at 2025-10-04 10:19:38
+Environment: CartPole-v1
+Device: cpu
+Num environments: 8
+Config: {'env_name': 'CartPole-v1', 'seed': 17, 'num_envs': 8, 'total_timesteps': 200000, 'n_steps': 1024, 'batch_size': 256, 'n_epochs': 10, 'learning_rate': 0.0003, 'gamma': 0.99, 'gae_lambda': 0.95, 'clip_range': 0.2, 'ent_coef': 0.0, 'vf_coef': 0.5, 'max_grad_norm': 0.5, 'policy_hidden_dims': (128, 128), 'eval_interval': 2, 'save_interval': 20, 'log_interval': 5, 'target_reward': 500.0, 'early_stopping_patience': 20}
+
+Evaluation | Update    2 | Avg Reward:   49.30
+Evaluation | Update    4 | Avg Reward:  111.90
+Update    5 | Step   40960 | Reward  111.90 | PL  0.000 | VL  0.000 | LR 3.00e-04 | FPS 4212
+Evaluation | Update    6 | Avg Reward:  235.10
+Evaluation | Update    8 | Avg Reward:  448.30
+Update   10 | Step   81920 | Reward  448.30 | PL  0.000 | VL  0.000 | LR 3.00e-04 | FPS 3333
+Evaluation | Update   10 | Avg Reward:  500.00
