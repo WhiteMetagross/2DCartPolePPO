@@ -205,6 +205,6 @@ Edit `config.py` to change:
 
 ---
 
-## Citation and Acknowledgments
+## Citation and Acknowledgments:
 - Algorithm and core implementation provided by Stable-Baselines3 PPO.
 - Environment provided by Gymnasium.
